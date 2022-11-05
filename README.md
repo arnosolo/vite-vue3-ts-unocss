@@ -9,6 +9,10 @@ You may want to delete `.git` folder first
 - [unocss](https://uno.antfu.me/)
 
 - [Code format - @antfu/eslint-config](https://github.com/antfu/eslint-config)
+  
+- [eslint-plugin-vue](https://eslint.vuejs.org/rules/multi-word-component-names.html)
+
+- [TypeScript ESLint](https://typescript-eslint.io/)
 
 ### Icons
 
