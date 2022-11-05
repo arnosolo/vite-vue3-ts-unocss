@@ -2,11 +2,13 @@
 
 ## Get Start
 
-You may want to delete .git folder first
+You may want to delete `.git` folder first
 
 ## Documents
 
 - [unocss](https://uno.antfu.me/)
+
+- [Code format - @antfu/eslint-config](https://github.com/antfu/eslint-config)
 
 ### Icons
 
