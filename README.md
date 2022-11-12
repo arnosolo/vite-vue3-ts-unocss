@@ -1,18 +1,25 @@
 # Vue 3 + TypeScript + Vite + Unocss
 
+> https://github.com/arnosolo/vite-vue3-ts-unocss
+
 ## Get Start
 
-You may want to delete `.git` folder first
+1. You may want to delete `.git` folder first
+2. Install dep
+   ```bash
+   npm i
+   ```
+3. Start
+   ```bash
+   npm run dev
+   ```
 
-## Documents
 
-- [unocss](https://uno.antfu.me/)
+## How to use
 
-- [Code format - @antfu/eslint-config](https://github.com/antfu/eslint-config)
-  
-- [eslint-plugin-vue](https://eslint.vuejs.org/rules/multi-word-component-names.html)
+### css
 
-- [TypeScript ESLint](https://typescript-eslint.io/)
+[unocss](https://uno.antfu.me/)
 
 ### Icons
 
@@ -29,3 +36,13 @@ You may want to delete `.git` folder first
    ```html
    <span i-ic-baseline-add-circle text-gray-500></span>
    ```
+
+### Code format
+
+- [Code format - @antfu/eslint-config](https://github.com/antfu/eslint-config)
+  
+- [eslint-plugin-vue](https://eslint.vuejs.org/rules/multi-word-component-names.html)
+
+- [TypeScript ESLint](https://typescript-eslint.io/)
+
+## How to build a template like this
