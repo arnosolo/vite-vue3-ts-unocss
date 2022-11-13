@@ -20,6 +20,7 @@ module.exports = {
       ignores: [],
     }],
     'no-console': 'warn',
-    'multilineDetection': 'brackets',
+    'no-new': 'warn',
+    'curly': ['error', 'all'],
   },
 }
