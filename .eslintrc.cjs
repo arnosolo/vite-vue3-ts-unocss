@@ -19,5 +19,7 @@ module.exports = {
       registeredComponentsOnly: false,
       ignores: [],
     }],
+    'no-console': 'warn',
+    'multilineDetection': 'brackets',
   },
 }
