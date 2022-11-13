@@ -60,7 +60,11 @@
    npx husky-init && npm install
    ```
 
-2. You will realize a new file `.husky/pre-commit` was created. And commons in it will be executed on each git commit. SO what we have to do next is add a common that can check code style.
+2. You will realize a new file `.husky/pre-commit` was created. And commons in it will be executed on each git commit. Now annotate the `npm test` cmd in it, since we will use lint-stage to check code style. 
+   ```bash
+   # .husky/pre-commit
+   # npm test
+   ```
    
 3. Install lint-stage
    ```bash
@@ -93,4 +97,3 @@
    1:7  error  'hello' is assigned a value but never used  @typescript-eslint/no-unused-vars
    ✖ 1 problem (1 error, 0 warnings)
    ```
-7. 
