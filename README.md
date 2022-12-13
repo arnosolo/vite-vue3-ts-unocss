@@ -86,14 +86,20 @@
 5. Now this auto check method should work, we just need verify it. Add a new file and make a commit see if it works.
    ```ts
    // src/hello.ts
-   const hello: number = 'abc'
+   console.log(123)
+   ```
+   ```ts
+   // .eslintrc.js
+  rules: {
+    'no-console': 'error',
+   ...
    ```
    ```bash
    git add ./src/hello.ts
    git commit -m "try lint-staged"
    ```
-6. If it works then we some error warning was printed by terminal, and this commit was not success.
+1. If it works then we some error warning was printed by terminal, and this commit was not success.
    ```bash
-   1:7  error  'hello' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   22:1  error  Unexpected console statement  no-console
    ✖ 1 problem (1 error, 0 warnings)
    ```
